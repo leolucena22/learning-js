@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.disable {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2020;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #3c3c3c;
+  padding: 50px 20px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h1, input {
+  margin-bottom: 20px;
+}
+
+.box input[type=number] {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.box input[type=number]:focus {
+  outline: none;
+}
+
+.box .botoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.box button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px #ffffff solid;
+  font-weight: 500;
+  outline: none;
+  color: #ffffff;
+  background: transparent;
+}
+
+.box button:hover {
+  background-color: #1f2020;
+  transition: 1s;
+}
+
+.resultado {
+  background-color: #1f2020;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.resultado span {
+  text-decoration: underline;
+}
