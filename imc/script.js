@@ -22,9 +22,9 @@ function calcularIMC() {
   let categoria = ''
   if (imc < 18.5) {
     categoria = 'Abaixo do peso'
-  } else if (imc >= 18.5 && imc < 24.9) {
+  } else if (imc >= 18.5 && imc < 24.99) {
     categoria = 'Peso normal'
-  } else if (imc >= 25 && imc < 29.9) {
+  } else if (imc >= 25 && imc < 29.99) {
     categoria = 'Sobrepeso'
   } else {
     categoria = 'Obesidade'
